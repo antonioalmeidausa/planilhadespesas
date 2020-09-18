@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Despesas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    
+    <h1>Despesas Pessoais</h1>
+
+    <div id="addDescription">
+
+        <h2>Insira uma descrição e valor para sua receita/despesa</h2>
+        
+        <input id="radioIncome" type="radio" name="option" value="receita">
+            <label for="receita">Receita</label>
+        <input id="ratioExpense" type="radio" name="option" value="despesa">
+            <label for="despesa">Despesa</label>
+        <br>
+        <p>Descrição</p>
+        <input id="textDescription" type="text" value="" required placeholder="Digite aqui uma descrição para sua receita/despesa">
+        <p>Valor</p>
+        <input id="valueDescription" type="number" step="any" min="0,00" required placeholder="R$ 0,00">
+
+        <button id="addDescriptionButton" type="button" class="btn btn-primary" >Adicionar</button>
+        <br>
+        <br>
+
+        <button id="closeAddDiv" type="button" class="btn btn-outline-danger">Fechar</button></td>
+
+    </div>
+
+
+    <div id="table">
+        <table id="incomesTable">
+
+            <tr id="incomeDescription" >
+                <td id="title">Receitas</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr id="tableHeadIncome" >
+                <th id="description">Descrição</th>    
+                <th id="value">Valor</th>
+                <th id="remove"></th>
+            </tr>
+                
+            
+        </table>
+        
+        <table id="total">
+                <tr id="totalIncome" >
+                    <td id="descriptionLine">Total Receitas</td>
+                    <td id="totalReceitas" class="totalIncome"></td>
+                </tr>
+        
+        </table>
+
+        <table id="expensesTable">
+            <tr id="expenseDescription" >
+                <td id="title">Despesas</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr id="tableHeadExpenses" >
+                <th id="description">Descrição</th>    
+                <th id="value">Valor</th>
+                <th id="remove"></th>
+            </tr>
+
+              
+        </table>
+        
+        <table id="total">
+            <tr id="totalExpenses" >
+                <td id="descriptionLine">Total Despesas</td>
+                <td id="totalDespesas" class="totalExpenses" ></td>
+            </tr>
+
+        </table>
+
+        <table id="totalTable">
+            
+            <tr id="tableBottom" >
+                <th id="descriptionLine">Saldo</th>
+                <th id="totalValue" class="totalValue"></th>
+                
+            </tr>
+        </table>
+    </div>
+
+    <div id="addExpensesButton" >
+        <button id="addExpenses" type="button" class="btn btn-primary" >Adicionar Receitas/Despesas</button>
+    </div>
+
+
+    
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+
+html {
+    background-color: #283044;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+body {
+    background-color: #283044;
+    padding-bottom: 30px;
+    
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #EBF5EE;
+    font-weight: 700;
+    border: 3px solid white;
+}
+
+#addDescription {
+    background-color: #EFFFFA;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: 5px;
+    display: none;
+    
+    
+
+}
+
+#addDescription h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#addDescription p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#textDescription {
+    width: 500px;
+    display: block;
+}
+
+#valueDescription {
+    width: 100px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#addDescriptionButton {
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    align-content: center;
+    padding: 0;
+    cursor: pointer;
+
+}
+
+#closeAddDiv {
+    width: 60px;
+    padding: 0;
+    height: 30px;
+    
+}
+
+#incomesTable, #expensesTable {
+    width: 100%;
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#totalTable, #total {
+    background-color: #CED0CE;
+    width: 100%;
+}
+
+#totalTable {
+    margin-top: 30px;
+}
+
+#table {
+    width: 100%;
+    text-align: inherit;
+    font-size: 20px;
+    
+}
+
+
+
+#tableHeadIncome, #tableHeadExpenses {
+    width: 100%;
+    display: none;
+}
+
+#incomeDescription, #expenseDescription {
+    background-color: #345995;
+    width: auto;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+#incomeDescription, #expenseDescription {
+    padding-left: 5px;
+}
+
+#descriptionLine {
+    width: 75%;
+    padding-left: 10px;
+}
+
+#valueLine, .totalIncome, .totalExpenses, #totalValue {
+    text-align: right;
+    width: auto;
+    padding-right: 10px;
+    
+}
+
+#description, #value {
+    padding-left: 5px;
+}
+
+#title {
+    padding-left: 5px;
+    font-weight: 700;
+}
+
+#descriptionLine, #valueLine, #description, #value, #totalValue, .totalIncome, .totalExpenses {
+    border: 2px solid black;
+}
+
+#remove {
+    width: 10%;
+    display: none;
+
+}
+
+#removeDescription {
+    text-align: center;
+}
+
+#removeDescriptionButton {
+    width: 80px;
+    padding: 0;
+    height: 30px;
+}
+
+
+
+#totalIncome, #totalExpenses {
+    background-color: #CED0CE;
+}
+
+#addExpensesButton {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-content: center;
+
+}
